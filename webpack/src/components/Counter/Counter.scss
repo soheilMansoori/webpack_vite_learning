@@ -1,0 +1,12 @@
+$themColor: white;
+$themBgColor: #333;
+
+body {
+  background: $themBgColor;
+  color: $themColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}

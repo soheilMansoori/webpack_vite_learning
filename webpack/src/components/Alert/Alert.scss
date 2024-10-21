@@ -1,0 +1,25 @@
+.alert {
+  &-wrapper {
+    padding: 8px 0;
+    font-size: 24px;
+  }
+  text-align: center;
+  padding: 8px 16px;
+  border-radius: 8px;
+  &.success {
+    color: white;
+    background-color: #037027;
+  }
+  &.info {
+    color: white;
+    background-color: #02417f;
+  }
+  &.warning {
+    color: white;
+    background-color: #b5570a;
+  }
+  &.danger {
+    color: white;
+    background-color: #930d0d;
+  }
+}
