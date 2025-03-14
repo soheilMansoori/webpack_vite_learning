@@ -2,13 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" href="/favicon.svg" type="image/x-icon" />
+    <title>Home</title>
   </head>
   <body>
-    <h1 class="text-white text-3xl my-4">hello tailwind</h1>
-    <p class="my-5">متن تستی</p>
+    <h1 x-data x-text="'index.html'"></h1>
+    <a href="/pages/about.html">about page</a>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
